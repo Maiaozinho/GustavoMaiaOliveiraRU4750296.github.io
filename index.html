@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Currículo Web</title> <!-- titulo da aba -->
+    <link rel="stylesheet" href="style.css"> <!-- linkando o CSS -->
+</head>
+<body>
+    <!-- 
+
+    Gustavo Maia Oliveira
+    RU:4750296
+
+    -->
+    <header>
+        <nav>
+            <!-- links do menu -->
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre">
+            <!-- pessoal -->
+            <h1>Sobre Mim</h1>
+            <img src="img/eu.jpg" alt="Minha Foto"> <!-- foto minha -->
+            <p>
+                Olá, meu nome é Gustavo Maia Oliveira, tenho 20 anos e estou cursando Análise e Desenvolvimento de Sistemas. <br>
+                Sou de São José dos Pinhais, sou uma pessoa muito comunicativa e adoro aprender coisas novas, principalmente 
+                relacionadas a tecnologias e inovações. <br> 
+                No meu tempo livre, gosto de jogar alguns jogos, assistir filmes e séries, ler livros, sair ou estudar.
+            </p>
+        </section>
+        <section id="formacao">
+            <!-- educação -->
+            <h1>Formação</h1>
+            <img src="img/estudos.png" alt="Imagem de estudos"> <!-- foto de cadernos -->
+            <p>
+                Ensino Médio - Colégio Juscelino K. de Oliveira (2019- 2021).<br>
+                Auxiliar Administrativo - CEBRAC (2019-2021).<br>
+                Análise e Desenvolvimento de Sistemas - Uninter (2024 - cursando).
+                Inglês nível básico.
+            </p>
+        </section>
+        <section id="portfolio">
+            <!-- projetos -->
+            <h1>Portfólio</h1>
+            <img src="img/portifolio.png" alt="Portfólio"> <!-- foto de um portfólio -->
+            <p>
+                Entre meus projetos tenho um vídeo postado de um jogo, Tekken 8, onde mostro minhas habilidades de edição.
+            </p>
+            <a href="https://www.youtube.com/shorts/DToquQL-c4I" target="_blank">Veja meu portfólio</a> <!-- video do youtube -->
+        </section>
+        <section id="contato">
+            <!-- formulario -->
+            <h1>Contato</h1>
+            <img src="img/contatos.png" alt="Contato"> <!-- foto de contatos -->
+            <p>Sinta-se a vontade para preencher as informações abaixo, e eu entrarei em contato com você!</p>
+            <form>
+                <!-- formulario -->
+                <label for="nome">Nome:</label> <!-- nome -->
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail:</label> <!-- email -->
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label> <!-- mensagem -->
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button> <!-- enviar o formulario -->
+            </form>
+        </section>
+    </main>
+</body>
+</html>
